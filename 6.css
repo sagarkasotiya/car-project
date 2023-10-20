@@ -1,0 +1,97 @@
+@keyframes skew{
+  0%{
+    transform:skew(0deg)
+  }
+  100%{transform:skew(1.5);
+ 
+}}
+@keyframes rotate{
+  0%{
+    transform:rotate (0deg)
+  }
+  50%{transform:scale(1.5);
+  transform:rotate(180deg);}
+  100%{transform:scale(1);
+  transform:rotate(360deg)}
+}
+.div1{background-image:url("./hq720.jpg");
+border:2px solid black;
+border-radius:20%;
+height:200px;
+width:400px;
+padding:20px 20px 20px 20px;
+margin-left:100px;
+background-size:cover;
+margin-top:50px;
+
+
+
+}
+.div2{background-image:url("./0d2m0qkg_car_625x300_12_January_22.jpg");
+  border:2px solid black;
+  border-radius:20%;
+  height:200px;
+  width:400px;
+  padding:20px 20px 20px 20px;
+  margin-left:100px;
+  background-size:cover;
+  margin-top:50px;
+  
+  
+  }
+  .div3{background-image: url("./lambo.jpg");
+    border:2px solid black;
+  border-radius:20%;
+  height:200px;
+  width:400px;
+  padding:20px 20px 20px 20px;
+  margin-left:100px;
+  background-size:cover;
+  margin-top:50px;
+  
+  
+  }
+  .div4{background-image: url("./sportscar_13620490_1000.jpg");
+    border:2px solid black;
+  border-radius:20%;
+  height:200px;
+  width:400px;
+  padding:20px 20px 20px 20px;
+  margin-left:100px;
+  background-size:cover;
+  margin-top:50px;
+  
+  }
+.container1{display:flex;
+justify-content: center;}
+.container2{display:flex;
+justify-content: center;}
+.main{background-color: blueviolet;
+font-size:50px;
+}
+h2{border:2px solid black;
+  text-align:center;
+color:lawngreen;}
+.div1:hover{
+  animation:matrix 2s infinite;
+  background-size: cover;
+
+}.div2:hover{
+  animation:matrix 2s infinite;
+  background-size: cover;
+
+}.div3:hover{
+  animation:matrix 2s infinite;
+  background-size: cover;
+}
+
+.div4:hover{
+  animation:matrix 2s infinite;
+}
+@keyframes animate{
+  0%{transform:translate(-200px);}
+  100%{transform:translate(20px);}}
+@keyframes matrix{
+  0%{transform:matrix(0,1,1,0,0,0);}
+  100%{transform:matrix(1,0,0,1,1,1);}
+}
